@@ -14,7 +14,7 @@ KEYS = {
 }
 
 def iniciar_reproductor():
-    """Abre solo la primera canción para iniciar el programa predeterminado"""
+    """Abre la primera canción para iniciar el programa """
     ruta_audio = os.path.join(os.getcwd(), 'audio_files')
     
     if os.path.exists(ruta_audio):
