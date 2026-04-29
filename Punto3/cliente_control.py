@@ -10,7 +10,7 @@ class AudioControlGUI(ctk.CTk):
         super().__init__()
 
         # Configuración de la ventana
-        self.title("Remote Audio Control")
+        self.title("GUMY Audio Control")
         self.geometry("400x500")
         self.resizable(False, False)
 
