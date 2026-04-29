@@ -7,8 +7,8 @@ import os
 KEYS = {
     'play_pause': 0xB3,
     'stop': 0xB2,
-    'next': 0xB1,
-    'prev': 0xB0,
+    'next': 0xB0,
+    'prev': 0xB1,
     'vol_up': 0xAF,
     'vol_down': 0xAE
 }

@@ -25,18 +25,21 @@ plt.subplot(4,1,1)
 plt.plot(S_1[:500], 'b')
 plt.title("Onda Original")
 plt.ylim(-1.1, 1.1)
+plt.xlim(0, 499)
 
 # Onda ruido (50 Hz)
 plt.subplot(4,1,2)
 plt.plot(S_2[:4000], 'b')
 plt.title("Onda Ruido")
 plt.ylim(-1.1, 1.1)
+plt.xlim(0, 3999)
 
 # Suma de ambas
 plt.subplot(4,1,3)
 plt.plot(w12[:3000], 'b')
 plt.title("Onda Original + Ruidosa")
 plt.ylim(-2.2, 2.2)
+plt.xlim(0, 2999)
 
 # FFT
 plt.subplot(4,1,4)

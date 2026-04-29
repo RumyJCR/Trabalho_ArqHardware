@@ -49,7 +49,7 @@ plt.plot(aS[0][:200], 'b', linewidth=0.8)
 plt.plot(f1[:200], 'r', linewidth=1.2)
 plt.title("Signal 1")
 plt.ylim(-6, 6)
-
+plt.xlim(0, 200)
 
 # Signal 2 - LA IMPORTANTE
 
@@ -58,6 +58,7 @@ plt.plot(aS[1][:200], 'b', linewidth=0.8)
 plt.plot(f2[:200], 'r', linewidth=1.5) # Esta línea ahora debería estar en el centro
 plt.title("Signal 2")
 plt.ylim(-15, 15) # CAMBIO 3: Escala fija para que se vea pequeña la roja
+plt.xlim(0, 200)
 
 # Signal 3
 
@@ -66,5 +67,6 @@ plt.plot(aS[2][:200], 'b', linewidth=0.8)
 plt.plot(f3[:200], 'r', linewidth=1.2)
 plt.title("Signal 3")
 plt.ylim(-30, 30)
+plt.xlim(0, 200)
 plt.tight_layout()
 plt.show()
