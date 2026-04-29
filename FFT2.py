@@ -27,7 +27,7 @@ aS = [
 
 def Filter_Comp(aV, nA):
     aF = np.zeros(len(aV))
-    # CAMBIO 1: Inicializamos en 0 para que no empiece desde el pico de la señal
+    # Inicializamos en 0 para que no empiece desde el pico de la señal
     aF[0] = 0
 
     for i in range(1, len(aV)):
@@ -51,13 +51,13 @@ plt.title("Signal 1")
 plt.ylim(-6, 6)
 plt.xlim(0, 200)
 
-# Signal 2 - LA IMPORTANTE
+# Signal 2 - 
 
 plt.subplot(3,1,2)
 plt.plot(aS[1][:200], 'b', linewidth=0.8)
-plt.plot(f2[:200], 'r', linewidth=1.5) # Esta línea ahora debería estar en el centro
+plt.plot(f2[:200], 'r', linewidth=1.5) 
 plt.title("Signal 2")
-plt.ylim(-15, 15) # CAMBIO 3: Escala fija para que se vea pequeña la roja
+plt.ylim(-15, 15) 
 plt.xlim(0, 200)
 
 # Signal 3
